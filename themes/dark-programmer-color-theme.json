@@ -153,6 +153,22 @@
 			}
 		},
 		{
+			"name": "Punctuation Definition Bracket",
+			"scope": "punctuation.definition.begin.bracket.square, punctuation.definition.end.bracket.square",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
+			}
+		},
+		{
+			"name": "Punctuation Section Bracket Round",
+			"scope": "punctuation.section.parens.begin.bracket.round, punctuation.section.parens.end.bracket.round, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.section.parameters.begin.bracket.round, punctuation.section.parameters.end.bracket.round",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
+			}
+		},
+		{
 			"name": "Class names",
 			"scope": [
 				"entity.name.class",
@@ -207,8 +223,8 @@
 			"name": "Function arguments",
 			"scope": "variable.parameter",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#2277ff"
+				"fontStyle": "italic, bold",
+				"foreground": "#009dff"
 			}
 		},
 		{
