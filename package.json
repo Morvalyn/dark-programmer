@@ -1,0 +1,31 @@
+{
+    "name": "dark-programmer-theme",
+    "displayName": "Dark Programmer",
+    "description": "For those who program every day and enjoy the dark theme.",
+    "version": "0.0.3",
+    "publisher": "nolanbradshaw",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Programmer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-programmer-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+		"type": "git",
+		"url": "https://nolanbradshaw.visualstudio.com/_git/DarkProgrammer"
+	},
+    "icon": "Icon.svg",
+	"galleryBanner": {
+		"color": "#9EA485",
+		"theme": "dark"
+	}
+}

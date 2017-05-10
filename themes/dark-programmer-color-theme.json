@@ -1,0 +1,328 @@
+{
+	"name": "dark-programmer",
+    "colors": {
+		"editor.background": "#000000",
+		"editor.foreground": "#accecb",
+		"editor.selectionBackground": "#3e4e55",
+		"editor.lineHighlightBackground": "#1b191b",
+		"editorCursor.foreground": "#a1e4f2",
+		"editorWhitespace.foreground": "#2d3a3c",
+		"statusBar.background": "#3f5459",
+		"statusBar.noFolderBackground": "#ff815c",
+		"sideBar.background": "#1b191b"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#accecbff",
+				"background": "#000000ff"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#6f7475"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#bdfced"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#fff69b"
+			}
+		},
+		{
+			"name": "Built-in constants",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#ffe27a"
+			}
+		},
+		{
+			"name": "User-defined constants",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#ffe27a"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": "variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fefedb"
+			}
+		},
+				{
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#accecb"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#d1dbaf"
+			}
+		},
+		{
+			"name": "Keyword Controls",
+			"scope": "keyword.control",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a7af8b"
+			}
+		},
+		{
+			"name": "Keyword Operator assignment",
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#7addc6"
+			}
+		},
+		{
+			"name": "Keyword Operator",
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7ad3db"
+			}
+		},
+		{
+			"name": "Meta Functions",
+			"scope": "meta.function",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#7addc6"
+			}
+		},
+		
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d1dbaf"
+			}
+		},
+		{
+			"name": "Storage types",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#7ab5dd"
+			}
+		},
+		{
+			"name": "Meta Block",
+			"scope": "meta.block",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d1dbaf"
+			}
+		},
+		{
+			"name": "Punctuation Terminator",
+			"scope": "punctuation.terminator.statement",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#7addc6"
+			}
+		},
+		{
+			"name": "Sources",
+			"scope": "source",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#7ab5dd"
+			}
+		},
+		{
+			"name": "Class names",
+			"scope": [
+				"entity.name.class",
+				"entity.name.type"
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#d9fefd"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9ea485"
+			}
+		},
+		{
+			"name": "Preprocessor names",
+			"scope": "entity.name.function.preprocessor",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#78cfde"
+			}
+		},
+		{
+			"name": "Function names",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#78cfde"
+			}
+		},
+		{
+			"name": "Meta Functions",
+			"scope": "meta.function",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#7addc6"
+			}
+		},
+		{
+			"name": "Meta Function Calls",
+			"scope": "meta.function-call",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#7addc6"
+			}
+		},
+		{
+			"name": "Function arguments",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#2277ff"
+			}
+		},
+		{
+			"name": "Tag names",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#225588"
+			}
+		},
+		{
+			"name": "Tag attributes",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#7addc6"
+			}
+		},
+		{
+			"name": "Library functions",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#78cfde"
+			}
+		},
+		{
+			"name": "Library constants",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Library classes/types",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "#F8F8F0"
+			}
+		},
+		{
+			"name": "diff: header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#E0EDDD"
+			}
+		},
+		{
+			"name": "diff: deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#dc322f"
+			}
+		},
+		{
+			"name": "diff: changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#cb4b16"
+			}
+		},
+		{
+			"name": "diff: inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#219186"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#22aa44"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Markup Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": {
+				"foreground": "#ddbb88"
+			}
+		}
+	]
+}
