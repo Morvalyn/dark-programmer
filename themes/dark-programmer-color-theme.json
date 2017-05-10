@@ -175,8 +175,8 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#d9fefd"
+				"fontStyle": "bold",
+				"foreground": "#48bfb5"
 			}
 		},
 		{
@@ -338,6 +338,63 @@
 			"scope": "markup.heading.setext",
 			"settings": {
 				"foreground": "#ddbb88"
+			}
+		},
+		// RUBY SUPPORT
+		{
+			"name": "Ruby - Function arguments",
+			"scope": "variable.parameter.function.ruby",
+			"settings": {
+				"fontStyle": "italic, bold",
+				"foreground": "#5ec1ff"
+			}
+		},
+		{
+			"name": "Ruby - Function core",
+			"scope": "support.function.core.ruby",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fefedb"
+			}
+		},
+		{
+			"name": "Ruby - Support Class",
+			"scope": "support.class.ruby",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#48bfb5"
+			}
+		},
+		{
+			"name": "Ruby - Function core",
+			"scope": "entity.name.function.ruby",
+			"settings": {
+				"fontStyle": "italic, bold",
+				"foreground": "#78cfde"
+			}
+		},
+		{
+			"name": "Ruby - Keyword other special method",
+			"scope": "keyword.other.special-method.ruby",
+			"settings": {
+				"fontStyle": "italic, bold",
+				"foreground": "#78cfde"
+			}
+		},
+		{
+			"name": "Ruby - Variable",
+			"scope": "variable.other.ruby",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d1dbaf"
+			}
+		},
+		{
+			"name": "Ruby - Punctuation Parameters",
+			"scope": "punctuation.definition.parameters.ruby,punctuation.section.function.ruby, punctuation.definition.character-class.ruby, punctuation.definition.string.ruby",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
 			}
 		}
 	]

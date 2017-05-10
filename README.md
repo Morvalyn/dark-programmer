@@ -1,5 +1,11 @@
 # README
-This has only been tested for the c language, but can be extended for other languages as well.
+Currently tested with C, and Ruby. 
+
+### Planned Updates:
+* More language specific coloring for other languages such as
+Python, Perl, C#, and GO.
+
+* Adding additional syntax highlighting for some languages.
 
 ![ScreenShot](https://morvalyn.github.io/dark-programmer/theme.png)
 

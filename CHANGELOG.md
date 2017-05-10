@@ -8,3 +8,5 @@
 ## 0.5
 - Added param parens coloring
 - Added array bracket coloring
+## 0.6
+- Added Ruby support
