@@ -5,3 +5,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 - Initial release
+## 0.4
+- relocated git to github
+- Fixed json and md theming
+

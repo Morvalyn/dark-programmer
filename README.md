@@ -5,5 +5,3 @@ This has only been tested for the c language, but can be extended for other lang
 
 ### Icon Credit
 * [Icon made by Pixel Buddha](http://www.flaticon.com/authors/pixel-buddha) 
-
-**Enjoy!**

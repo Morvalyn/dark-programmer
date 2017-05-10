@@ -251,7 +251,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#9966b8"
+				"foreground": "#78cfde"
 			}
 		},
 		{
@@ -314,7 +314,7 @@
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
-				"foreground": "#9966b8"
+				"foreground": "#78cfde"
 			}
 		},
 		{
