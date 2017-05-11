@@ -1,5 +1,5 @@
 # README
-Currently tested with C, and Ruby. 
+Currently tested with C, Ruby is still being implemented.
 
 ### Planned Updates:
 * More language specific coloring for other languages such as

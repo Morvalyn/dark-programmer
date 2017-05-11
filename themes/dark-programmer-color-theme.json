@@ -37,14 +37,16 @@
 			"name": "Numbers",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#fff69b"
+				"fontStyle": "bold",
+				"foreground": "#B1B165"
 			}
 		},
 		{
 			"name": "Built-in constants",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#ffe27a"
+				"fontStyle": "bold",
+				"foreground": "#B1B165"
 			}
 		},
 		{
@@ -117,7 +119,7 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d1dbaf"
+				"foreground": "#C6D29B"
 			}
 		},
 		{
@@ -149,7 +151,7 @@
 			"scope": "source",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#7ab5dd"
+				"foreground": "#d1dbaf"
 			}
 		},
 		{
@@ -224,7 +226,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"fontStyle": "italic, bold",
-				"foreground": "#009dff"
+				"foreground": "#59c1ff"
 			}
 		},
 		{
