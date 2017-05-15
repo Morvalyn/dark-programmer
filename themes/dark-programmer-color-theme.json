@@ -398,6 +398,57 @@
 				"fontStyle": "bold",
 				"foreground": "#00ffff"
 			}
-		}
+		},
+		///C#
+		//TODO: add color to arrays adjust new color, adjust extensions device[i].SerialNumber where serialnumber should be a different color.
+		{
+			"name": "CSharp - Entity Name Tag",
+			"scope": "entity.name.tag.localname.cs",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#c2c2a3"
+			}
+		},
+		{
+			"name": "CSharp - Punctuation Definition Tag",
+			"scope": "punctuation.definition.tag.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
+			}
+		},
+		{
+			"name": "CSharp - Storage Modifier",
+			"scope": "storage.modifier",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#00ffff"
+				}
+		},
+
+		{
+			"name": "CSharp - Entity Tag XML",
+			"scope": "entity.name.tag.localname.xml",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#d1dbaf"
+			}
+		},
+		{
+			"name": "CSharp - Text XML",
+			"scope": "text.xml",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
+			}
+		},
+		{
+			"name": "CSharp - String Quoted Double XML",
+			"scope": "string.quoted.double.xml",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7ab5dd"
+			}
+		}		
 	]
 }

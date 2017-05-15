@@ -11,3 +11,5 @@
 ## 0.6
 - Started implementing Ruby support
 - changed a constant colors and booleans
+## 0.7
+- Started implementing C# support
