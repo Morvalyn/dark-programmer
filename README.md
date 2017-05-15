@@ -11,11 +11,11 @@ Python, Perl, C#, and GO.
 
 * Adding additional syntax highlighting for some languages.
 ### C
-![ScreenShot](https://morvalyn.github.io/dark-programmer/theme.png)
+![ScreenShot](https://raw.githubusercontent.com/Morvalyn/dark-programmer/master/theme.png)
 ### Ruby
-![ScreenShot](https://morvalyn.github.io/dark-programmer/theme-ruby.png)
+![ScreenShot](https://raw.githubusercontent.com/Morvalyn/dark-programmer/master/theme-ruby.png)
 ### CSharp
-![ScreenShot](https://morvalyn.github.io/dark-programmer/theme-csharp.png)
+![ScreenShot](https://raw.githubusercontent.com/Morvalyn/dark-programmer/master/theme-csharp.png)
 
 ### Icon Credit
 * [Icon made by Pixel Buddha](http://www.flaticon.com/authors/pixel-buddha) 
