@@ -2,8 +2,8 @@
 Currently tested with C, Ruby is still being implemented.
 
 ### In Progress
-Ruby implementation palette
-CSharp implementation palette
+* Ruby implementation palette
+* CSharp implementation palette
 
 ### Planned Updates:
 * More language specific coloring for other languages such as
