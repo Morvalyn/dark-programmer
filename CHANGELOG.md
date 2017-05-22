@@ -15,3 +15,5 @@
 - Started implementing C# support
 ## 0.8
 - Small editions to C#, and C support
+## 0.9
+- Changed keyword operator color

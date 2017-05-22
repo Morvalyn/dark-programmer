@@ -90,19 +90,11 @@
 			}
 		},
 		{
-			"name": "Keyword Operator assignment",
-			"scope": "keyword.operator.assignment",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#7addc6"
-			}
-		},
-		{
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#7ad3db"
+				"foreground": "#00ffff"
 			}
 		},
 		{
@@ -164,7 +156,16 @@
 		},
 		{
 			"name": "Punctuation Section Bracket Round",
-			"scope": "punctuation.section.parens.begin.bracket.round, punctuation.section.parens.end.bracket.round, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.section.parameters.begin.bracket.round, punctuation.section.parameters.end.bracket.round,punctuation.section.arguments.begin.bracket.round ,punctuation.section.arguments.end.bracket.round",
+			"scope": [
+					"punctuation.section.parens.begin.bracket.round", 
+					"punctuation.section.parens.end.bracket.round", 
+					"punctuation.definition.parameters.begin", 
+					"punctuation.definition.parameters.end", 
+					"punctuation.section.parameters.begin.bracket.round", 
+					"punctuation.section.parameters.end.bracket.round",
+					"punctuation.section.arguments.begin.bracket.round",
+					"punctuation.section.arguments.end.bracket.round"
+			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#00ffff"
