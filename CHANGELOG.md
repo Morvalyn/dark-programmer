@@ -14,4 +14,4 @@
 ## 0.7
 - Started implementing C# support
 ## 0.8
-- small editions to C#, and C support
+- Small editions to C#, and C support
