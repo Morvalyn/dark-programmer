@@ -13,3 +13,5 @@
 - changed a constant colors and booleans
 ## 0.7
 - Started implementing C# support
+## 0.8
+- small editions to C#, and C support
