@@ -17,3 +17,5 @@
 - Small editions to C#, and C support
 ## 0.9
 - Changed keyword operator color
+## 0.10
+- Updated C language pictures with the previous changes.
