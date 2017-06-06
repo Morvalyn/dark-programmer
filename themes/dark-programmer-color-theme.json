@@ -86,7 +86,8 @@
 			"scope": "keyword.control",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#a7af8b"
+				"foreground": "#fed98e"
+				// "foreground": "#e2a98d"
 			}
 		},
 		{
@@ -127,7 +128,8 @@
 			"scope": "meta.block",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d1dbaf"
+				"foreground": "#ffffd4"
+				// "foreground": "#d1dbaf"
 			}
 		},
 		{

@@ -19,3 +19,5 @@
 - Changed keyword operator color
 ## 0.10
 - Updated C language pictures with the previous changes.
+## 0.11
+- Updated C language pictures and modified keyword.control
