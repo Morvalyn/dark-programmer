@@ -21,3 +21,5 @@
 - Updated C language pictures with the previous changes.
 ## 0.11
 - Updated C language pictures and modified keyword.control
+## 0.12
+- Additional adjustments to c language updated c language image.

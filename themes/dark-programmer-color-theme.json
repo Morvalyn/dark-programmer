@@ -33,12 +33,20 @@
 				"foreground": "#bdfced"
 			}
 		},
+				{
+			"name": "String quoted double include",
+			"scope": "string.quoted.double.include",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#c1dcf4"
+			}
+		},
 		{
 			"name": "Numbers",
 			"scope": "constant.numeric",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#B1B165"
+				"foreground": "#a2a275"
 			}
 		},
 		{
@@ -86,8 +94,26 @@
 			"scope": "keyword.control",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#fed98e"
+				"foreground": "#a3ecbd"
+				// "foreground": "#fed98e"
 				// "foreground": "#e2a98d"
+			}
+		},
+		{
+			"name": "Keyword Directive Conditional",
+			"scope": "keyword.control.directive.conditional",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#9dfad0"
+				// "foreground": "#D0DCAD"
+			}
+		},
+				{
+			"name": "Keyword Directive Include",
+			"scope": "keyword.control.directive.include",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#9dfad0"
 			}
 		},
 		{
@@ -128,8 +154,8 @@
 			"scope": "meta.block",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ffffd4"
-				// "foreground": "#d1dbaf"
+				// "foreground": "#ffffd4"
+				"foreground": "#d1dbaf"
 			}
 		},
 		{
