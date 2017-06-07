@@ -94,9 +94,9 @@
 			"scope": "keyword.control",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#a3ecbd"
-				// "foreground": "#fed98e"
-				// "foreground": "#e2a98d"
+				"foreground": "#9dfad0"
+				//"foreground": "#c1dcf4"
+				//"foreground": "#a3ecbd"
 			}
 		},
 		{
@@ -172,6 +172,14 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#d1dbaf"
+			}
+		},
+		{
+			"name": "Punctuation Definition Curly Bracket",
+			"scope": "punctuation.section.block.begin.bracket.curly, punctuation.section.block.end.bracket.curly",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
 			}
 		},
 		{
