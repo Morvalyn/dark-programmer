@@ -494,6 +494,15 @@
 				"foreground": "#00ffff"
 				}
 		},
+			
+		{
+			"name": "CSharp - Storage Modifier",
+			"scope": "storage.type.cs",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a493dd"
+				}
+		},
 		{
 			"name": "CSharp - Keywords",
 			"scope": "keyword.type.cs,keyword.other.new.cs",
@@ -507,7 +516,7 @@
 			"scope": "keyword.other.is.cs,keyword.other.as.cs",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#008eff"
+				"foreground": "#16F390"
 			}
 		},
 		{
@@ -526,14 +535,7 @@
 				"foreground": "#78cfde"
 			}
 		},
-		{
-			"name": "CSharp - Variable Local",
-			"scope": "entity.name.variable.local.cs",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#ADEDFF"
-			}
-		},
+		 
 		{
 			"name": "CSharp - Variable Other ReadWrite",
 			"scope": "variable.other.readwrite.cs",
