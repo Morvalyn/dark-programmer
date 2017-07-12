@@ -25,3 +25,5 @@
 - Additional adjustments to c language updated c language image.
 ## 0.13
 - Updated all images regarding languages, made small tweaks to colors.
+## 0.14
+- Overhauled CSharp coloring.

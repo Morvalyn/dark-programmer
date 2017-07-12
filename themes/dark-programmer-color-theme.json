@@ -439,6 +439,14 @@
 		///C#
 		//TODO: add color to arrays adjust new color, adjust extensions device[i].SerialNumber where serialnumber should be a different color.
 		{
+			"name": "Csharp - Storage types",
+			"scope": "storage.type.cs",
+			"settings": {
+				"fontStyle": "italic,bold",
+				"foreground": "#7ab5dd"
+			}
+		},
+		{
 			"name": "CSharp - Entity Name Tag",
 			"scope": "entity.name.tag.localname.cs",
 			"settings": {
@@ -455,6 +463,30 @@
 			}
 		},
 		{
+			"name": "Function names",
+			"scope": "entity.name.function.cs",
+			"settings": {
+				"fontStyle": "italic , bold",
+				"foreground": "#00C6FF"
+			}
+		},
+		{
+			"name": "CSharp - Punctuation Parenthesis Close/Open",
+			"scope": [ 
+					"punctuation.parenthesis.close.cs",
+					"punctuation.parenthesis.open.cs",
+					"punctuation.definition.typeparameters.begin.cs",
+					"punctuation.definition.typeparameters.end.cs",
+					"punctuation.squarebracket.open.cs",
+					"punctuation.squarebracket.close.cs",
+					"punctuation.accessor.cs"
+			],
+				"settings": {
+				"fontStyle": "bold",
+				"foreground": "#00ffff"
+			}
+		},
+		{
 			"name": "CSharp - Storage Modifier",
 			"scope": "storage.modifier",
 			"settings": {
@@ -462,7 +494,117 @@
 				"foreground": "#00ffff"
 				}
 		},
+		{
+			"name": "CSharp - Keywords",
+			"scope": "keyword.type.cs,keyword.other.new.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#9dfad0"
+			}
+		},
+		{
+			"name": "CSharp - Keywords",
+			"scope": "keyword.other.is.cs,keyword.other.as.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#008eff"
+			}
+		},
+		{
+			"name": "CSharp - Variable Other",
+			"scope": "variable.other.object.property.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0080A3"
+			}
+		},
+				{
+			"name": "CSharp - Variable Other Objects",
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#78cfde"
+			}
+		},
+		{
+			"name": "CSharp - Variable Local",
+			"scope": "entity.name.variable.local.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ADEDFF"
+			}
+		},
+		{
+			"name": "CSharp - Variable Other ReadWrite",
+			"scope": "variable.other.readwrite.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ADEDFF"
+			}
+		},
+		{
+			"name": "CSharp - String Quoted Double",
+			"scope": "string.quoted.double.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#E4D395"
+			}
+		},
+		{
+			"name": "CSharp - Numerical Decimal",
+			"scope": "constant.numeric.decimal.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FDF3ED"
+			}
+		},
+		{
+			"name": "CSharp - constant Characters Escape",
+			"scope": "constant.character.escape.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#997A66"
+			}
+		},
+		{
+			"name": "CSharp - Numerical Decimal",
+			"scope": "entity.name.variable.parameter.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ADEDFF"
+			}
+		},
+		{
+			"name": "CSharp -  Loop",
+			"scope": "keyword.control.loop.for.cs,keyword.control.conditional.else.cs,keyword.control.conditional.if.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#16F390"
+			}
+		},
+		{
+			"name": "CSharp -  Curly",
+			"scope": "punctuation.curlybrace.open.cs,punctuation.curlybrace.close.cs",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FFFFFF"
+			}
+		},
+		
 
+//
+		//constant.character.escape.cs
+
+//variable.other.readwrite.cs
+//entity.name.variable.parameter.cs
+//punctuation.accessor.cs
+
+//entity.name.variable.local.cs
+
+//string.quoted.double.cs
+//constant.character.escape.cs
+//keyword.other.new.cs
+//entity.name.variable.parameter.cs
 		{
 			"name": "CSharp - Entity Tag XML",
 			"scope": "entity.name.tag.localname.xml",
